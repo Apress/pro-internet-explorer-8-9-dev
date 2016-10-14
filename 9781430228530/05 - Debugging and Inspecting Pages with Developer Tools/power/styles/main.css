@@ -1,0 +1,107 @@
+
+/* Document Container */
+
+.document {
+   border: 1px solid black;
+   padding: 15px;
+}
+
+/* Header */
+
+.header-container {
+   position: relative; 
+   height: 45px;
+   background-color: #222222;
+   color: #aaaaaa;
+   margin-bottom: 15px;
+}
+.header {
+   padding: 7px;
+   z-index: 0; 
+   position: absolute;
+}
+.header h1 {
+   margin: 0;
+   padding: 0;
+   display: block;
+}
+
+.spacer {
+   height: 5px;
+   /*
+   Add this value in Dev Tools
+   width: 150px;
+   */
+}
+
+.deco-text {
+   position: absolute;
+   font-family: Baskerville, Times, Times New Roman, serif;
+   font-size: 80px;
+   color: white;
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   font-style: italic;
+   top: -25px;
+   
+   /*
+   Add these values using Dev Tools
+   left: 60px;
+   */
+}
+
+/* Navigation */
+
+.navigation a,
+.navigation a:hover,
+.navigation a:visited { 
+   font-weight: bold;
+   color: #444444;
+   /*
+   Change this value in Dev Tools
+   color: #90d5e7;
+   */
+   text-decoration: none;
+}
+
+/* Content */
+
+.content { }
+
+/* Blog Entries */
+
+.entry-title {
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 1.5em;
+   color: black;
+}
+
+.entry-date {
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 0.9em;
+   color: #555555;
+   font-style: italic;
+   padding-bottom: 5px;
+}
+
+.entry-image {
+   padding: 10px;
+}
+
+.entry-content {
+   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+   font-size: 1em;
+   color: black;
+}
+
+/* Footer */
+
+.footer {
+   background-color: #cccccc;
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 0.9em;
+   color: #555555;
+   margin: 15px 0 0 0;
+   padding: 5px;   
+}

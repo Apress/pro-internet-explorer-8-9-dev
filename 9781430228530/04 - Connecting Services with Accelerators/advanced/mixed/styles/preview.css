@@ -1,0 +1,7 @@
+body { margin:0; font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; text-align: center;}
+table { text-align: left; }
+thead { background-color: #dddddd; font-weight: bold; font-size: 14px; }
+td { padding: 5px 5px; }
+tbody td { font-size: 14px; }
+.testimony { background: url(../images/testimony_bar.png) no-repeat 5px 5px; }  
+#logo { padding: 15px 0; }

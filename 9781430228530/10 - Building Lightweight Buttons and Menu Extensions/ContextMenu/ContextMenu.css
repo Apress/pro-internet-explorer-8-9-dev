@@ -1,0 +1,23 @@
+﻿#contextMenuWrapper {
+   border: 2px solid #444; 
+   display: none; 
+   position: absolute; 
+   }
+.contextMenu { 
+   margin: 0; 
+   padding: 10px; 
+   list-style-type: none; 
+   background-color: white; 
+   }
+.contextMenu hr { 
+   border: 0; 
+   margin: 5px; 
+   width: 150px; 
+   }
+.contextMenu a { 
+   color: #305aa6; 
+   border: 0 !important; 
+   }
+.contextMenu a:hover { 
+   text-decoration: underline !important; 
+   }

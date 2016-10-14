@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{40AD9F9B-3CD9-4F7E-88F2-C70FD438B8F1}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"ButtonText"="Launch Notepad"
+"Icon"="C:\\ProIeDev\\10\\ToolbarButton\\Exec\\Notepad.ico"
+"HotIcon"="C:\\ProIeDev\\10\\ToolbarButton\\Exec\\Notepad.ico"
+"DefaultVisible"="yes"
+"Exec"="\"C:\\windows\\notepad.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Extensions\{B9759B89-2906-47DA-AE9B-F1CA25B8729D}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"ButtonText"="Launch Notepad"
+"Icon"="C:\\ProIeDev\\10\\ToolbarButton\\Exec\\Notepad.ico"
+"HotIcon"="C:\\ProIeDev\\10\\ToolbarButton\\Exec\\Notepad.ico"
+"DefaultVisible"="yes"
+"Exec"="\"C:\\windows\\notepad.exe\""

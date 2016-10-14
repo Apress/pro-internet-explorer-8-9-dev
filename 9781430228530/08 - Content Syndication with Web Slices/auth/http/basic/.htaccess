@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "WebSlice"
+AuthUserFile /my/basic/file.passwd
+require valid-user

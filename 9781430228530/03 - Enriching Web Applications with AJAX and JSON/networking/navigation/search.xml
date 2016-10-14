@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>##name##</ShortName> 
+  <Description>##desc##</Description> 
+  <InputEncoding>##enc##</InputEncoding> 
+  <Url type="text/html" template="##uri##" /> 
+  <Image width="16" height="16">##icon##</Image>
+  <Developer>##dev##</Developer>
+  <Contact>##contact##</Contact>
+</OpenSearchDescription>

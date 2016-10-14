@@ -1,0 +1,4 @@
+AuthUserFile /my/digest/file.passwd
+AuthType Digest
+AuthName "WebSlice"
+require valid-user

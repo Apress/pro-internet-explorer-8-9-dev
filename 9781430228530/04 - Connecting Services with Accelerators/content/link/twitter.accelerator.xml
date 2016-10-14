@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<os:openServiceDescription xmlns:os="http://www.microsoft.com/schemas/openservicedescription/1.0">
+   <os:homepageUrl>http://examples.proiedev.com/07/content/link/</os:homepageUrl> 
+   <os:display>
+      <os:name>Tweet This!</os:name>
+      <os:icon>http://examples.proiedev.com/07/content/link/favicon.ico</os:icon> 
+      <os:description>Tweet website content to your Twitter account.</os:description> 
+   </os:display>
+   <os:activity category="Twitter">   
+      <os:activityAction context="document">
+         <os:execute action="http://examples.proiedev.com/07/content/link/service.php" method="post">
+            <os:parameter name="mode" value="execute" type="text" /> 
+            <os:parameter name="type" value="document" type="text" />
+            <os:parameter name="documentUrl" value="{documentUrl}" type="text" /> 
+            <os:parameter name="documentTitle" value="{documentTitle}" type="text" /> 
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="selection">
+         <os:execute action="http://examples.proiedev.com/07/content/link/service.php" method="post">
+            <os:parameter name="mode" value="execute" type="text" /> 
+            <os:parameter name="type" value="selection" type="text" />
+            <os:parameter name="documentUrl" value="{documentUrl}" type="text" /> 
+            <os:parameter name="selection" value="{selection}" type="text" /> 
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="link">
+         <os:execute action="http://examples.proiedev.com/07/content/link/service.php" method="post">
+            <os:parameter name="mode" value="execute" type="text" /> 
+            <os:parameter name="type" value="link" type="text" />
+            <os:parameter name="link" value="{link}" type="text" /> 
+            <os:parameter name="linkText" value="{linkText}" type="text" /> 
+         </os:execute>
+      </os:activityAction>
+   </os:activity>
+</os:openServiceDescription>

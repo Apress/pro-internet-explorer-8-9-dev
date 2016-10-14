@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{A6F0523F-30E4-489F-884C-91A084810EE5}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Script"="C:\\ProIeDev\\10\\MenuItem\\HelpMenuItem\\Script\\Run.html"
+"MenuText"="Open Microsoft Online Support"
+"MenuCustomize"="help"
+"MenuStatusBar"="Opens the Microsoft online support web page"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Extensions\{5280DDB9-E9D8-4F0F-842F-A23CBF263CE7}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Script"="C:\\ProIeDev\\10\\MenuItem\\HelpMenuItem\\Script\\Run.html"
+"MenuText"="Open Microsoft Online Support"
+"MenuCustomize"="help"
+"MenuStatusBar"="Opens the Microsoft online support web page"

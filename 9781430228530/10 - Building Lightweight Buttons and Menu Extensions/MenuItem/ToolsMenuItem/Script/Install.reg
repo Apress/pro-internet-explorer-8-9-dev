@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{8B256D2C-9C36-43FD-ABE1-D2703439D5BD}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Script"="C:\\ProIeDev\\10\\MenuItem\\ToolsMenuItem\\Script\\Run.html"
+"MenuText"="Open MSDN"
+"MenuCustomize"="tools"
+"MenuStatusBar"="Opens the Microsoft Developer Network web page"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Extensions\{7B87C8DF-3A69-4303-8C30-8296775D4302}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Script"="C:\\ProIeDev\\10\\MenuItem\\ToolsMenuItem\\Script\\Run.html"
+"MenuText"="Open MSDN"
+"MenuCustomize"="tools"
+"MenuStatusBar"="Opens the Microsoft Developer Network web page"

@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{46FB380B-5E11-48F1-A9E8-8F689F3E1C60}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Exec"="\"C:\\Windows\\winhlp32.exe\""
+"MenuText"="Open Windows Help"
+"MenuCustomize"="help"
+"MenuStatusBar"="Opens the Windows help application"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Extensions\{920C4ABC-C0E4-4E00-B8FF-A068E1C83D82}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"Exec"="\"C:\\Windows\\winhlp32.exe\""
+"MenuText"="Open Windows Help"
+"MenuCustomize"="help"
+"MenuStatusBar"="Opens the Windows help application"

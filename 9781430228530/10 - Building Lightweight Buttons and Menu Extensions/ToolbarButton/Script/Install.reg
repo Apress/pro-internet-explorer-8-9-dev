@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{E210FAE5-3322-4DF7-94E2-B134CC624B35}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"ButtonText"="Launch MSDN"
+"Icon"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\MSDN.ico"
+"HotIcon"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\MSDN.ico"
+"Default Visible"="Yes"
+"Script"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\Run.html"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Extensions\{1C1E2247-34CA-44B8-BE91-4E0798CAC048}]
+"CLSID"="{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}"
+"ButtonText"="Launch MSDN"
+"Icon"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\MSDN.ico"
+"HotIcon"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\MSDN.ico"
+"Default Visible"="Yes"
+"Script"="C:\\ProIeDev\\10\\ToolbarButton\\Script\\Run.html"

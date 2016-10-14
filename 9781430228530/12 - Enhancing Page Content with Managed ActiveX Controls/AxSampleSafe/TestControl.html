@@ -1,0 +1,24 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+    <title>ActiveX - Safe for Scripting Demo</title>
+</head>
+<body>
+    <h1>
+        ActiveX - Safe for Scripting Demo
+    </h1>
+    <object id="TestControl" name="TestControl" 
+        classid="clsid:5093129D-81E3-4848-BF7B-2856D854BAF8"
+        viewastext>
+    </object>
+    <script language="javascript">
+        // When this function is invoked, IE should not throw
+        // up a .NET security error
+        function TestControl::OnClick()
+        { 
+            alert("The button was clicked... \n" +
+                  "and there was no security warning!");
+        }
+    </script>
+</body>
+</html>

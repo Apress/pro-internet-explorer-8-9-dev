@@ -1,0 +1,18 @@
+REG QUERY "HKCU\SOFTWARE\Microsoft\Internet Explorer\Main" /s
+
+REG ADD "HKCU\SOFTWARE\Microsoft\Internet Explorer\Main" /v "Start Page" /t REG_SZ /d "http://www.bing.com"
+
+
+ValueName = "Start Page"
+strValue = "http://www.microsoft.com"
+-----
+
+rundll32.exe inetcpl.cpl,ClearMyTracksByProcessW 255
+
+
+rundll32.exe inetcpl.cpl,LaunchInternetControlPanel
+
+rundll32.exe inetcpl.cpl,ResetIEtoDefaults
+
+rundll32.exe inetcpl.cpl,LaunchInternetControlPanel
+

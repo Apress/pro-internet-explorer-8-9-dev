@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<os:openServiceDescription xmlns:os="http://www.microsoft.com/schemas/openservicedescription/1.0">
+   <os:homepageUrl>http://examples.proiedev.com/07/advanced/mixed/</os:homepageUrl> 
+   <os:display>
+      <os:name>WOT Reputation Scorecard</os:name>
+      <os:icon>http://examples.proiedev.com/07/advanced/mixed/favicon.ico</os:icon> 
+      <os:description>The WOT community has rated millions of websites. Use their warnings to protect yourself from online scams, sites with adult content and spam.</os:description> 
+   </os:display>
+   <os:activity category="Safety">   
+      <os:activityAction context="document">
+         <os:preview action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="preview" /> 
+            <os:parameter name="type" value="document" type="document" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:preview>
+         <os:execute action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="execute" /> 
+            <os:parameter name="type" value="document" type="document" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="selection">
+         <os:preview action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="preview" /> 
+            <os:parameter name="type" value="document" type="selection" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:preview>
+         <os:execute action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="execute" /> 
+            <os:parameter name="type" value="document" type="selection" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="link">
+         <os:preview action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="preview" /> 
+            <os:parameter name="type" value="document" type="link" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:preview>
+         <os:execute action="http://examples.proiedev.com/07/advanced/mixed/service.php" method="post">
+            <os:parameter name="mode" value="document" type="execute" /> 
+            <os:parameter name="type" value="document" type="link" /> 
+            <os:parameter name="documentDomain" value="{documentDomain}" type="text" /> 
+            <os:parameter name="linkDomain" value="{linkDomain}" type="text" />  
+         </os:execute>
+      </os:activityAction>
+   </os:activity>
+</os:openServiceDescription>

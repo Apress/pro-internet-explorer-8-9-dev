@@ -1,0 +1,27 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+    <title>ActiveX - Basic Demo</title>
+</head>
+<body>
+    <h1>
+        ActiveX - Basic Demo
+    </h1>
+    <object id="TestControl" name="TestControl" classid="clsid:D0E4F5FB-BAB5-45F6-9CF6-ACB1CCB526F1"
+        viewastext>
+    </object>
+    <script language="javascript">
+        // Test writing to/reading from properties
+        TestControl.IntPropertyTest = 42;
+        TestControl.StringPropertyTest = "Hello."
+        alert("Int: " + TestControl.IntPropertyTest + 
+              "\nString: " + TestControl.StringPropertyTest);
+
+        // Test function output
+        alert(TestControl.StringFunctionTest());
+
+        // Test function input
+        TestControl.FunctionInputTest("Some great input.");
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\View in IE&9 Alpha]
+@="C:\\Scripts\\IE\\ContextMenu\\UseAlternateBrowsers\\Run.html?browser=ie9alpha"
+"Flags"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\View in Firefo&x]
+@="C:\\Scripts\\IE\\ContextMenu\\UseAlternateBrowsers\\Run.html?browser=firefox"
+"Flags"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\View in &Opera]
+@="C:\\Scripts\\IE\\ContextMenu\\UseAlternateBrowsers\\Run.html?browser=opera"
+"Flags"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\View in Safar&i]
+@="C:\\Scripts\\IE\\ContextMenu\\UseAlternateBrowsers\\Run.html?browser=safari"
+"Flags"=dword:00000001

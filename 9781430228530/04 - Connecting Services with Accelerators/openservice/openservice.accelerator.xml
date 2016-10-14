@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<os:openServiceDescription xmlns:os="http://www.microsoft.com/schemas/openservicedescription/1.0">
+   <os:homepageUrl>http://examples.proiedev.com/07/openservice/</os:homepageUrl> 
+   <os:display>
+      <os:name>OpenService XML Inspection Tool</os:name>
+      <os:icon>http://examples.proiedev.com/07/openservice/favicon.ico</os:icon> 
+      <os:description>Inspect variables sent from a specific accelerator context.</os:description> 
+   </os:display>
+   <os:activity category="Developer Tools">   
+      <os:activityAction context="document">
+         <os:execute action="http://examples.proiedev.com/07/openservice/service.php" method="post">
+            <os:parameter name="type" value="document" type="text" /> 
+            <os:parameter name="documentUrlText" value="{documentUrl}" type="text" /> 
+            <os:parameter name="documentUrlHTML" value="{documentUrl}" type="html" /> 
+            <os:parameter name="documentTitleText" value="{documentTitle}" type="text" /> 
+            <os:parameter name="documentTitleHTML" value="{documentTitle}" type="html" /> 
+            <os:parameter name="documentDomainText" value="{documentDomain}" type="text" /> 
+            <os:parameter name="documentDomainHTML" value="{documentDomain}" type="html" /> 
+            <os:parameter name="selectionText" value="{selection}" type="text" /> 
+            <os:parameter name="selectionHTML" value="{selection}" type="html" /> 
+            <os:parameter name="linkText" value="{link}" type="text" /> 
+            <os:parameter name="linkHTML" value="{link}" type="html" /> 
+            <os:parameter name="linkTextText" value="{linkText}" type="text" /> 
+            <os:parameter name="linkTextHTML" value="{linkText}" type="html" /> 
+            <os:parameter name="linkRelText" value="{linkRel}" type="text" /> 
+            <os:parameter name="linkRelHTML" value="{linkRel}" type="html" /> 
+            <os:parameter name="linkTypeText" value="{linkType}" type="text" /> 
+            <os:parameter name="linkTypeHTML" value="{linkType}" type="html" /> 
+            <os:parameter name="linkDomainText" value="{linkDomain}" type="text" /> 
+            <os:parameter name="linkDomainHTML" value="{linkDomain}" type="html" /> 
+            <os:parameter name="linkHostText" value="{linkHost}" type="text" /> 
+            <os:parameter name="linkHostHTML" value="{linkHost}" type="html" /> 
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="selection">
+         <os:execute action="http://examples.proiedev.com/07/openservice/service.php" method="post">
+            <os:parameter name="type" value="selection" type="text" /> 
+            <os:parameter name="documentUrlText" value="{documentUrl}" type="text" /> 
+            <os:parameter name="documentUrlHTML" value="{documentUrl}" type="html" /> 
+            <os:parameter name="documentTitleText" value="{documentTitle}" type="text" /> 
+            <os:parameter name="documentTitleHTML" value="{documentTitle}" type="html" /> 
+            <os:parameter name="documentDomainText" value="{documentDomain}" type="text" /> 
+            <os:parameter name="documentDomainHTML" value="{documentDomain}" type="html" /> 
+            <os:parameter name="selectionText" value="{selection}" type="text" /> 
+            <os:parameter name="selectionHTML" value="{selection}" type="html" /> 
+            <os:parameter name="linkText" value="{link}" type="text" /> 
+            <os:parameter name="linkHTML" value="{link}" type="html" /> 
+            <os:parameter name="linkTextText" value="{linkText}" type="text" /> 
+            <os:parameter name="linkTextHTML" value="{linkText}" type="html" /> 
+            <os:parameter name="linkRelText" value="{linkRel}" type="text" /> 
+            <os:parameter name="linkRelHTML" value="{linkRel}" type="html" /> 
+            <os:parameter name="linkTypeText" value="{linkType}" type="text" /> 
+            <os:parameter name="linkTypeHTML" value="{linkType}" type="html" /> 
+            <os:parameter name="linkDomainText" value="{linkDomain}" type="text" /> 
+            <os:parameter name="linkDomainHTML" value="{linkDomain}" type="html" /> 
+            <os:parameter name="linkHostText" value="{linkHost}" type="text" /> 
+            <os:parameter name="linkHostHTML" value="{linkHost}" type="html" /> 
+         </os:execute>
+      </os:activityAction>
+      <os:activityAction context="link">
+         <os:execute action="http://examples.proiedev.com/07/openservice/service.php" method="post">
+            <os:parameter name="type" value="link" type="text" /> 
+            <os:parameter name="documentUrlText" value="{documentUrl}" type="text" /> 
+            <os:parameter name="documentUrlHTML" value="{documentUrl}" type="html" /> 
+            <os:parameter name="documentTitleText" value="{documentTitle}" type="text" /> 
+            <os:parameter name="documentTitleHTML" value="{documentTitle}" type="html" /> 
+            <os:parameter name="documentDomainText" value="{documentDomain}" type="text" /> 
+            <os:parameter name="documentDomainHTML" value="{documentDomain}" type="html" /> 
+            <os:parameter name="selectionText" value="{selection}" type="text" /> 
+            <os:parameter name="selectionHTML" value="{selection}" type="html" /> 
+            <os:parameter name="linkText" value="{link}" type="text" /> 
+            <os:parameter name="linkHTML" value="{link}" type="html" /> 
+            <os:parameter name="linkTextText" value="{linkText}" type="text" /> 
+            <os:parameter name="linkTextHTML" value="{linkText}" type="html" /> 
+            <os:parameter name="linkRelText" value="{linkRel}" type="text" /> 
+            <os:parameter name="linkRelHTML" value="{linkRel}" type="html" /> 
+            <os:parameter name="linkTypeText" value="{linkType}" type="text" /> 
+            <os:parameter name="linkTypeHTML" value="{linkType}" type="html" /> 
+            <os:parameter name="linkDomainText" value="{linkDomain}" type="text" /> 
+            <os:parameter name="linkDomainHTML" value="{linkDomain}" type="html" /> 
+            <os:parameter name="linkHostText" value="{linkHost}" type="text" /> 
+            <os:parameter name="linkHostHTML" value="{linkHost}" type="html" /> 
+         </os:execute>
+      </os:activityAction>
+   </os:activity>
+</os:openServiceDescription>

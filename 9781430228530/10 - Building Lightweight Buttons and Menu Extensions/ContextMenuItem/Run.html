@@ -1,0 +1,69 @@
+<html>
+   <head>
+      <meta http-equiv="pragma" content="no-cache">
+   </head>
+   <body>
+      <script type="text/javascript">
+      
+         //  Get an associative array of query parameters and values
+         //  passed to this URL
+         function GetQueryParams()
+         {
+            var pairs = {};
+            var items = window.location.search.substring(1).split("&");
+            for(var i = 0; i < items.length; i++) { 
+               var pair = items[i].split("=");
+               if(pair.length != 2) { continue; }
+               else { pairs[pair[0]] = pair[1]; }
+            }
+            return pairs;
+         }
+      
+         //  Get a the value of a specific query parameter specified
+         //  by a string name
+         function GetQueryParam(param)
+         {
+            var pairs = GetQueryParams();
+            if(param in pairs) return pairs[param];
+            else return null;
+         }
+         
+         //  Location of script used to launch
+         var launcher = "C:\\Scripts\\IE\\ContextMenu\\UseAlternateBrowsers\\RunAsync.vbs";
+         
+         //  Associative array of browsers and the location of
+         //  their executables
+         var apps = {
+            "ie9alpha" : "file://%PROGRAMFILES%\\Internet Explorer Platform Preview\\iepreview.exe",
+            "firefox"  : "file://%PROGRAMFILES%\\Mozilla Firefox\\firefox.exe",
+            "opera"    : "file://%PROGRAMFILES%\\Opera\\opera.exe",
+            "safari"   : "file://%PROGRAMFILES%\\Safari\\Safari.exe"
+         };
+         
+         //  Get the query parameter "browser" from the URL         
+         var app = GetQueryParam("browser");
+         
+         //  Make sure the browser exists
+         if(app in apps) {
+         
+            //  Create a new ActiveX shell object
+            var shell = new ActiveXObject("WScript.Shell");
+            
+            //  Run the executable from the browsers associative array and
+            //  append the url to the command line.  Make sure to set the
+            //  WindowStyle (second) param to 0 (hidden) and the WaitForExit
+            //  param (thrid) to 0 (run browser as async)
+            shell.run("wscript.exe \"" + 
+                      launcher + "\" \"" + 
+                      apps[app] + "\" \"" + 
+                      external.menuArguments.document.URL + "\""
+                      );
+
+         }
+         
+         //  Close the window or else it will stick around
+         window.close();
+         
+      </script>
+   </body>
+</html>

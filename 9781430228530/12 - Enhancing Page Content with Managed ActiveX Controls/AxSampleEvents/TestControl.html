@@ -1,0 +1,21 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+    <title>ActiveX - Events Demo</title>
+</head>
+<body>
+    <h1>
+        ActiveX - Events Demo
+    </h1>
+    <object id="TestControl" name="TestControl" classid="clsid:C85CA4EB-3996-444A-91FE-B9045C94AD38"
+        viewastext>
+    </object>
+    <script language="javascript">
+        // Create an OnClick handler for the control
+        function TestControl::OnClick()
+        { 
+            alert("The button was clicked!");
+        }
+    </script>
+</body>
+</html>

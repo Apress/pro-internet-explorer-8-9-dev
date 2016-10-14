@@ -1,0 +1,19 @@
+body {
+   font: normal 1.0em Arial, Helvetica, sans-serif;
+}
+#page-title {
+   font: bold 1.75em Georgia, Times, serif;
+}
+#page-teaser {
+   font-style: italic;
+}
+#webslice-title {
+   font: bold 1.25em Georgia, Times, serif;
+}
+#webslice-content {
+   font: normal 0.8em Arial, Helvetica, sans-serif;
+}
+#webslice-list { }
+#webslice-time {
+   color: #555; font: italic 0.75em Georgia, Times, serif;
+}

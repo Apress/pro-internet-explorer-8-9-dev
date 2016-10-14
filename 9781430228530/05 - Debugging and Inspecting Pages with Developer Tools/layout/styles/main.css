@@ -1,0 +1,88 @@
+
+/* Document Container */
+
+.document {
+   border: 1px solid black;
+   padding: 15px;
+}
+
+/* Header */
+
+.header-container {
+   position: relative; 
+   height: 45px;
+   background-color: #222222;
+   color: #aaaaaa;
+   margin-bottom: 15px;
+}
+.header {
+   padding: 7px;
+   z-index: 0; 
+   position: absolute;
+}
+.header h1 {
+   margin: 0;
+   padding: 0;
+   display: block;
+}
+
+/* Navigation */
+
+.navigation a,
+.navigation a:hover,
+.navigation a:visited { 
+   font-weight: bold;
+   color: #444444;
+   text-decoration: none;
+} 
+
+/* Content */
+
+.content { }
+
+/* Blog Entries */
+
+.entry-content { /* For Testing */
+   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+   font-size: 1em;
+   color: red !important;  
+   /* This was left over from testing, and it overrides */
+   /* entry-content defined below */
+}
+
+.entry-title {
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 1.5em;
+   color: black;
+   font-style: normal;
+}
+
+.entry-date {
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 0.9em; /* Not what wass expected!  Em's are relative to the parent containter. */
+   color: #555555;
+   font-style: italic;
+   padding-bottom: 5px;
+}
+
+.entry-image {
+   /* Added padding: 10px; from Layout tools */
+}
+
+.entry-content {
+   font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+   font-size: 1em;
+   color: black;
+}
+
+/* Footer */
+
+.footer {
+   background-color: white;
+   /* Changed to #cccccc in dev tools */
+   font-family: "Hoefler Text", Constantia, Cambria, Georgia, serif;
+   font-size: 0.9em;
+   color: #555555;
+   margin: 15px 0 0 0;
+   padding: 5px;   
+}

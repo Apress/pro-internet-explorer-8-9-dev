@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>My RSS 2.0 Feed</title>
+    <link>http://examples.proiedev.com/test/feeds/structure/feed.xml</link>
+    <description>My first RSS feed... it is great!</description>
+    <item> 
+       <title>Friday Coding Fun Fest</title>
+       <link>http://examples.proiedev.com/blog/02</link>  
+       <description>Matt talks about Friday Coding Fun Fest with Daniel</description>
+    </item> 
+    <item>
+       <title>Wednesday ASP.NET Party</title>
+       <link>http://examples.proiedev.com/blog/01</link>  
+       <description>Matt talks about the AWESOME ASP.NET Wednesday Coding Party</description>
+    </item> 
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+
+/* Document Container */
+
+.document {
+   border: 1px solid black;
+   padding: 15px;
+}
+
+/* Header */
+
+.header-container {}
+
+.header {}
+
+.header h1 {}
+
+/* Navigation */
+
+.navigation {}
+
+/* Content */
+
+.content { }
+
+/* Blog Entries */
+
+.entry-title {}
+
+.entry-date {}
+
+.entry-image {}
+
+.entry-content {}
+
+/* Footer */
+
+.footer {}
